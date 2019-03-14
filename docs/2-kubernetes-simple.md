@@ -260,7 +260,7 @@ calico作为kubernets的CNI插件的配置
   "cniVersion": "0.1.0",  
   "type": "calico",  
     <!--etcd的url-->
-    "ed_endpoints": "http://192.168.1.102:2379",  
+    "etcd_endpoints": "http://192.168.1.102:2379",  
     "logevel": "info",  
     "ipam": {  
         "type": "calico-ipam"  
